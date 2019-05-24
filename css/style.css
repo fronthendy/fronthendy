@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    outline-color: #ffa000;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
+    background-color: whitesmoke;
+    letter-spacing: 1px;
+    color: #555;
+}
+
+a:any-link {
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+header {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    box-shadow: 0 0 10px  rgba(0,0,0,0.5);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    width: 200px;
+    padding:  10px 0 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+header nav ul li {
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+header nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+header nav ul li a:hover{
+    color: #ffa000;
+}
+
+.container {
+    width: 1200px;
+    max-width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+section {
+    min-height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+
+#banner {
+    background-image: url('../img/foto.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#banner .overflow {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.4);
+    color: #fff;
+}
+
+#banner h1 {
+    text-transform: lowercase;
+    font-size: 4.7em;
+    font-weight: 400;
+    margin: 0 0 10px;
+}
+
+#banner h2 {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    opacity: 0.8;
+    font-weight: 400;
+}
+
+#sobre h2 {
+    text-transform: uppercase;
+}
+
+#sobre {
+    position: relative;
+    z-index: 2;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    padding: 80px;
+}
+#sobre .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#sobre p{
+    width: 900px;
+    max-width: 100%;
+}
+
+#sobre .habilidades {
+    width: 100%;
+    display: flex;
+    /* align-items: flex-start; */
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    margin: 30px 0;
+}
+
+#sobre h3 {
+    color: #ffa000;
+    text-transform: lowercase;
+    margin: 0 0 20px;
+}
+#sobre .habilidade {
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    /* border-radius: 5px; */
+}
+
+#sobre .habilidade ul li {
+    padding: 10px;
+    transition: 0.2s ease;
+}
+
+#sobre .habilidade ul li:hover{
+    color: #ff6f00;
+    font-weight: 600;
+    cursor: initial;
+}
+
+#sobre ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.interlude {
+    width: 100%;
+    height: 250px;
+    display: block;
+    background-image: url('../img/code.jpg');
+    background-blend-mode: multiply;
+    background-color: #603a25ad;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#carreira {
+    min-height: auto;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#carreira ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#carreira ul li a img {
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid #555;
+    filter:  grayscale(100%);
+    transition: .2s ease;
+    margin: 20px;
+}
+
+#carreira ul li a img:hover {
+    filter: none;
+}
+
+#projetos {
+    position: relative;
+    z-index: 2;
+}
+
+#projetos h2 {
+    text-transform: uppercase;
+}
+
+#projetos .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#projetos .lista-projetos{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    flex-direction: row;
+    text-align: center;
+}
+
+#projetos .lista-projetos article {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#contato {
+    position: relative;
+    z-index: 3;
+    background-color: whitesmoke;
+}
+
+#contato .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#contato form {
+    width: 400px;
+    max-width: 100%;
+}
+
+#contato form input,
+#contato form textarea {
+    width: 100%;
+    border-radius: 2px;
+    border: 1px solid #555;
+    padding: 10px;
+    margin: 5px 0 15px;
+    resize: none;
+}
+button {
+    padding: 10px 25px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    transition: 0.2s;
+
+}
+
+button:hover {
+    background-color: #ffa000;
+}
+
+#contato .coffee {
+    width: 250px;
+}
+
+#contato p {
+    font-size: 15px;
+    margin: 20px 0;
+    letter-spacing: 1px;
+    color: #555;
+}
+
+#contato p a {
+    color: #ff6f00;
+    font-weight: 600;
+}
+footer {
+    text-align: center;
+    background-color: #555;
+    color: #fff;
+    padding: 10px;
+}
