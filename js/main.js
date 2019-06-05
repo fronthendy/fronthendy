@@ -11,4 +11,11 @@ $(function () {
         }
     }
     typeWriter();
+
+    $(".menu-toggle").click(function () {
+       $('header').toggleClass("menu-active");
+    });
+    $("nav li").click(function () {
+        $('header').toggleClass("menu-active");
+     });
 });

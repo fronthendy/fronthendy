@@ -35,6 +35,7 @@ header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 header .logo {
@@ -63,6 +64,22 @@ header nav ul li a {
 
 header nav ul li a:hover{
     color: #ffa000;
+}
+
+header .menu-toggle {
+    display: none;
+}
+
+header .menu-toggle,
+header .menu-toggle:hover,
+header .menu-toggle:active {
+
+    font-size: 2em;
+    padding: 0;
+    background-color: transparent;
+    color: orange;
+    padding: 10px;
+    border: none;
 }
 
 .container {
@@ -123,7 +140,7 @@ section {
     position: relative;
     z-index: 2;
     box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
-    padding: 80px;
+    padding: 80px 0;
 }
 #sobre .container {
     display: flex;
@@ -135,7 +152,7 @@ section {
 
 #sobre p{
     width: 900px;
-    max-width: 100%;
+    max-width: 80vw;
 }
 
 #sobre .habilidades {
@@ -144,6 +161,7 @@ section {
     /* align-items: flex-start; */
     justify-content: center;
     flex-direction: row;
+    flex-wrap: wrap;
     text-align: center;
     margin: 30px 0;
 }
@@ -158,7 +176,8 @@ section {
     padding: 20px;
     background-color: white;
     box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
-    /* border-radius: 5px; */
+    border-radius: 5px;
+    margin: 5px 0;
 }
 
 #sobre .habilidade ul li {
@@ -194,8 +213,12 @@ section {
     padding: 100px 0;
     display: flex;
     flex-direction: column;
+    justify-items: center;
 }
 
+#carreira h2 {
+    text-align: center;
+}
 #carreira ul {
     list-style-type: none;
     margin: 0;
@@ -204,6 +227,12 @@ section {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+#carreira ul li {
+    width: 30%;
+    text-align: center;
+    min-width: 140px;
 }
 
 #carreira ul li a img {
@@ -233,6 +262,7 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 #projetos .lista-projetos{
@@ -241,12 +271,14 @@ section {
     justify-content: space-around;
     flex-direction: row;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 #projetos .lista-projetos article {
     display: flex;
     flex-direction: column;
     padding: 20px;
+    min-width: 300px;
 }
 
 #contato {
@@ -257,6 +289,7 @@ section {
 
 #contato .container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
@@ -275,7 +308,7 @@ section {
     margin: 5px 0 15px;
     resize: none;
 }
-button {
+button:not(.menu-toggle) {
     padding: 10px 25px;
     font-size: 18px;
     text-transform: uppercase;
@@ -312,4 +345,82 @@ footer {
     background-color: #555;
     color: #fff;
     padding: 10px;
+}
+
+.LI-badge-container-horizontal-light {
+    background-color: #fff;
+}
+
+.LI-simple-link {
+    background-color: transparent;
+    font-family: 'Raleway';
+    color: #555;
+    font-weight: 600;
+}
+
+.LI-profile-badge {
+    margin: 30px;
+}
+
+.LI-simple-link img{
+    width: 30px;
+    vertical-align: middle
+}
+
+@media (max-width: 840px) {
+    #banner h1 {
+        font-size: 4em;
+    }
+
+    #banner h2 {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 699px) {
+
+    header .menu-toggle {
+        display: inline-block;
+    }
+    header nav{
+        height: 0;
+        overflow: hidden;
+        width: 100%;
+        transition: 0.2s;
+    }
+
+    header.menu-active nav {
+        height: 100vh;
+    }
+    
+    header nav ul li {
+        border-top: 1px solid #ccc;
+        width: 100%;
+    }
+    
+    header nav ul li a {
+        padding: 20px;
+        display: inline-block;
+    }
+}
+
+@media (max-width: 640px) {
+    #banner h1 {
+        font-size: 3em;
+    }
+}
+
+@media (max-width: 530px) {
+    #banner h1 {
+        font-weight: 600;
+        font-size: 3em;
+        margin-top: 340px;
+    }
+    .LI-profile-badge {
+        margin: 30px 0;
+        width: 100%;
+    }
+    #contato .LI-badge-container.horizontal.light{
+        width: 100% ;
+    }
 }
