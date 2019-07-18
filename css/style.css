@@ -235,6 +235,10 @@ section {
     min-width: 140px;
 }
 
+#carreira ul li a {
+    display: block;
+}
+
 #carreira ul li a img {
     width: 100px;
     border-radius: 50%;
