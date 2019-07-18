@@ -278,7 +278,7 @@ section {
     display: flex;
     flex-direction: column;
     padding: 20px;
-    min-width: 300px;
+    width: 300px;
 }
 
 #contato {
