@@ -19,4 +19,6 @@
 
     $send = mail($email_destinatario, $email_assunto, nl2br($email_conteudo), $email_headers);
     
+    var_dump($email_conteudo);
+    var_dump($email_headers);
     var_dump($send);
