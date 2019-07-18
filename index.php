@@ -1,3 +1,4 @@
+<?php include_once('mail.php'); ?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
