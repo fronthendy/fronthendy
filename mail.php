@@ -5,11 +5,11 @@ if (isset($_POST['contato'])) {
     $email = $_POST['email'];
     $mensagem = $_POST['mensagem'];
 
-    $email_remetente = "oi@fronthendy.com.br"; // deve ser uma conta de email do seu dominio 
-    $email_destinatario = "oi@fronthendy.com.br"; // pode ser qualquer email que receberá as mensagens
+    $email_remetente = "hendy@fronthendy.com.br"; // deve ser uma conta de email do seu dominio 
+    $email_destinatario = "hendy@fronthendy.com.br"; // pode ser qualquer email que receberá as mensagens
     $email_reply = "$email";
     $email_assunto = "Contato - $nome"; // Este será o assunto da mensagem
-    
+
     $email_conteudo = "<h1>Olá, alguém entrou em contato através do site!</h1> \n\n\n";
     $email_conteudo .= "<p>Nome: $nome </p>";
     $email_conteudo .= "<p>Email: $email </p>";
