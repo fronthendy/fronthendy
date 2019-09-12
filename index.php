@@ -15,7 +15,7 @@
     <header>
         <div class="container">
             <a href="#">
-                <img src="img/front-hendy-logo.png" class="logo" alt="Logo Front-Hendy">
+                <img src="img/front-hendy-logo.webp" class="logo" alt="Logo Front-Hendy">
             </a>
             <button class="menu-toggle" title="abrir menu">&#9776;</button>
             <nav>
@@ -79,12 +79,12 @@
     <section id="carreira">
         <h2>orgulho de colaborar com empresas incríveis</h2>
         <ul>
-            <li><a target="_blank" href="https://www.linkedin.com/school/digital-house-brasil/"><img src="img/logo-dh.png" alt="Digital House"></a></li>
-            <li><a target="_blank" href="https://www.linkedin.com/company/sala-criativa/"><img src="img/logo-sala.png" alt="Sala Criativa"></a></li>
-            <li><a target="_blank" href="https://www.linkedin.com/company/badaro-ux/"><img src="img/logo-badaro.png" alt="Agência Badaró"></a></li>
-            <li><a target="_blank" href="https://www.linkedin.com/company/arizona-global/"><img src="img/logo-az.png" alt="Agência Arizona"></a></li>
-            <li><a target="_blank" href="https://www.linkedin.com/company/getsourcecode/"><img src="img/logo-get.png" alt="Get Source"></a></li>
-            <li><a target="_blank" href="https://www.linkedin.com/company/it-lean---brasil/"><img src="img/logo-itlean.png" alt="IT Lean"></a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/school/digital-house-brasil/"><img src="img/logo-dh.webp" alt="Digital House"></a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/company/sala-criativa/"><img src="img/logo-sala.webp" alt="Sala Criativa"></a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/company/badaro-ux/"><img src="img/logo-badaro.webp" alt="Agência Badaró"></a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/company/arizona-global/"><img src="img/logo-az.webp" alt="Agência Arizona"></a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/company/getsourcecode/"><img src="img/logo-get.webp" alt="Get Source"></a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/company/it-lean---brasil/"><img src="img/logo-itlean.webp" alt="IT Lean"></a></li>
         </ul>
     </section>
     <!-- <section id="projetos">
@@ -124,7 +124,7 @@
             </form>
             <div class="LI-profile-badge" data-version="v1" data-size="large" data-locale="pt_BR" data-type="horizontal" data-theme="light" data-vanity="hendyalmeida">
                 <a class="LI-simple-link" href='https://br.linkedin.com/in/hendyalmeida?trk=profile-badge'>
-                    <img src="img/linkedin-icon.png" alt="Icone LinkedIn">/hendyalmeida
+                    <img src="img/linkedin-icon.webp" alt="Icone LinkedIn">/hendyalmeida
                 </a>
             </div>
 
