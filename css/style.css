@@ -99,7 +99,7 @@ section {
 }
 
 #banner {
-    background-image: url('../img/foto.png');
+    background-image: url('../img/foto.webp');
     background-position: center;
     background-size: cover;
     position: relative;
@@ -204,7 +204,7 @@ section {
     width: 100%;
     height: 250px;
     display: block;
-    background-image: url('../img/code.png');
+    background-image: url('../img/code.webp');
     background-blend-mode: multiply;
     background-color: #603a25ad;
     background-size: cover;
