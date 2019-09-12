@@ -17,7 +17,7 @@
             <a href="#">
                 <img src="img/front-hendy-logo.png" class="logo" alt="Logo Front-Hendy">
             </a>
-            <button class="menu-toggle">&#9776;</button>
+            <button class="menu-toggle" title="abrir menu">&#9776;</button>
             <nav>
                 <ul>
                     <li><a href="#sobre">Sobre</a></li>
@@ -79,12 +79,12 @@
     <section id="carreira">
         <h2>orgulho de colaborar com empresas incríveis</h2>
         <ul>
-            <li><a target="_blank" href="https://www.linkedin.com/school/digital-house-brasil/"><img src="img/logo-dh.jpg" alt="logo"></a></li>
-            <li><a target="_blank" href="https://www.linkedin.com/company/sala-criativa/"><img src="img/logo-sala.png" alt="logo"></a></li>
-            <li><a target="_blank" href="https://www.linkedin.com/company/badaro-ux/"><img src="img/logo-badaro.png" alt="logo"></a></li>
-            <li><a target="_blank" href="https://www.linkedin.com/company/arizona-global/"><img src="img/logo-az.png" alt="logo"></a></li>
-            <li><a target="_blank" href="https://www.linkedin.com/company/getsourcecode/"><img src="img/logo-get.png" alt="logo"></a></li>
-            <li><a target="_blank" href="https://www.linkedin.com/company/it-lean---brasil/"><img src="img/logo-itlean.png" alt="logo"></a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/school/digital-house-brasil/"><img src="img/logo-dh.png" alt="Digital House"></a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/company/sala-criativa/"><img src="img/logo-sala.png" alt="Sala Criativa"></a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/company/badaro-ux/"><img src="img/logo-badaro.png" alt="Agência Badaró"></a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/company/arizona-global/"><img src="img/logo-az.png" alt="Agência Arizona"></a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/company/getsourcecode/"><img src="img/logo-get.png" alt="Get Source"></a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/company/it-lean---brasil/"><img src="img/logo-itlean.png" alt="IT Lean"></a></li>
         </ul>
     </section>
     <!-- <section id="projetos">
@@ -108,7 +108,7 @@
     </section> -->
     <section id="contato">
         <div class="container">
-            <form action="#" method="post">
+            <form action="#" method="post" title="formulário de contato">
                 <h2>Bora tomar um café?</h2>
                 <label for="nome">nome</label>
                 <input type="text" name="nome" required>
@@ -119,10 +119,10 @@
                 <label for="mensagem">mensagem</label>
                 <textarea name="mensagem"></textarea>
 
-                <button name="contato">Enviar</button>
+                <button name="contato" role="button" title="enviar formulário">Enviar</button>
                 <p>ou mande um email para <br> <a href="mailto:oi@fronthendy.com.br">oi@fronthendy.com.br</a></p>
             </form>
-            <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="pt_BR" data-type="horizontal" data-theme="light" data-vanity="hendyalmeida">
+            <div class="LI-profile-badge" data-version="v1" data-size="large" data-locale="pt_BR" data-type="horizontal" data-theme="light" data-vanity="hendyalmeida">
                 <a class="LI-simple-link" href='https://br.linkedin.com/in/hendyalmeida?trk=profile-badge'>
                     <img src="img/linkedin-icon.png" alt="Icone LinkedIn">/hendyalmeida
                 </a>
@@ -133,8 +133,7 @@
     <footer>
         <p>Copyright | front-hendy</p>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
     <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
     <script src="js/main.js"></script>

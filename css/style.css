@@ -28,7 +28,7 @@ header {
     left: 0;
     width: 100%;
     background-color: whitesmoke;
-    box-shadow: 0 0 10px  rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header .container {
@@ -40,7 +40,7 @@ header .container {
 
 header .logo {
     width: 200px;
-    padding:  10px 0 0;
+    padding: 10px 0 0;
 }
 
 header nav ul {
@@ -48,6 +48,7 @@ header nav ul {
     margin: 0;
     padding: 0;
 }
+
 header nav ul li {
     display: inline-block;
     padding: 10px 15px;
@@ -62,7 +63,7 @@ header nav ul li a {
     font-weight: 600;
 }
 
-header nav ul li a:hover{
+header nav ul li a:hover {
     color: #ffa000;
 }
 
@@ -98,7 +99,7 @@ section {
 }
 
 #banner {
-    background-image: url('../img/foto.jpg');
+    background-image: url('../img/foto.png');
     background-position: center;
     background-size: cover;
     position: relative;
@@ -114,7 +115,7 @@ section {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.4);
     color: #fff;
 }
 
@@ -139,9 +140,10 @@ section {
 #sobre {
     position: relative;
     z-index: 2;
-    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
     padding: 80px 0;
 }
+
 #sobre .container {
     display: flex;
     justify-content: center;
@@ -150,7 +152,7 @@ section {
     text-align: center;
 }
 
-#sobre p{
+#sobre p {
     width: 900px;
     max-width: 80vw;
 }
@@ -171,11 +173,12 @@ section {
     text-transform: lowercase;
     margin: 0 0 20px;
 }
+
 #sobre .habilidade {
     width: 300px;
     padding: 20px;
     background-color: white;
-    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     margin: 5px 0;
 }
@@ -185,7 +188,7 @@ section {
     transition: 0.2s ease;
 }
 
-#sobre .habilidade ul li:hover{
+#sobre .habilidade ul li:hover {
     color: #ff6f00;
     font-weight: 600;
     cursor: initial;
@@ -201,7 +204,7 @@ section {
     width: 100%;
     height: 250px;
     display: block;
-    background-image: url('../img/code.jpg');
+    background-image: url('../img/code.png');
     background-blend-mode: multiply;
     background-color: #603a25ad;
     background-size: cover;
@@ -219,6 +222,7 @@ section {
 #carreira h2 {
     text-align: center;
 }
+
 #carreira ul {
     list-style-type: none;
     margin: 0;
@@ -243,7 +247,7 @@ section {
     width: 100px;
     border-radius: 50%;
     border: 1px solid #555;
-    filter:  grayscale(100%);
+    filter: grayscale(100%);
     transition: .2s ease;
     margin: 20px;
 }
@@ -269,7 +273,7 @@ section {
     flex-wrap: wrap;
 }
 
-#projetos .lista-projetos{
+#projetos .lista-projetos {
     display: flex;
     align-content: center;
     justify-content: space-around;
@@ -291,7 +295,7 @@ section {
     background-color: whitesmoke;
 }
 
-#contato .container{
+#contato .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -312,6 +316,7 @@ section {
     margin: 5px 0 15px;
     resize: none;
 }
+
 button:not(.menu-toggle) {
     padding: 10px 25px;
     font-size: 18px;
@@ -344,6 +349,7 @@ button:hover {
     color: #ff6f00;
     font-weight: 600;
 }
+
 footer {
     text-align: center;
     background-color: #555;
@@ -366,7 +372,7 @@ footer {
     margin: 30px;
 }
 
-.LI-simple-link img{
+.LI-simple-link img {
     width: 30px;
     vertical-align: middle
 }
@@ -386,7 +392,8 @@ footer {
     header .menu-toggle {
         display: inline-block;
     }
-    header nav{
+
+    header nav {
         height: 0;
         overflow: hidden;
         width: 100%;
@@ -396,12 +403,12 @@ footer {
     header.menu-active nav {
         height: 100vh;
     }
-    
+
     header nav ul li {
         border-top: 1px solid #ccc;
         width: 100%;
     }
-    
+
     header nav ul li a {
         padding: 20px;
         display: inline-block;
@@ -420,11 +427,13 @@ footer {
         font-size: 3em;
         margin-top: 340px;
     }
+
     .LI-profile-badge {
         margin: 30px 0;
         width: 100%;
     }
-    #contato .LI-badge-container.horizontal.light{
-        width: 100% ;
+
+    #contato .LI-badge-container.horizontal.light {
+        width: 100%;
     }
 }
