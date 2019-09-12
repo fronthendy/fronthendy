@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Hendy Almeida, desenvolvedora web e professora de programação.">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     <title>front-hendy</title>
@@ -111,13 +112,13 @@
             <form action="#" method="post" title="formulário de contato">
                 <h2>Bora tomar um café?</h2>
                 <label for="nome">nome</label>
-                <input type="text" name="nome" required>
+                <input type="text" name="nome" id="nome" required>
 
                 <label for="email">email</label>
-                <input type="email" name="email" required>
+                <input type="email" name="email" id="email" required>
 
                 <label for="mensagem">mensagem</label>
-                <textarea name="mensagem"></textarea>
+                <textarea name="mensagem" id="mensagem"></textarea>
 
                 <button name="contato" role="button" title="enviar formulário">Enviar</button>
                 <p>ou mande um email para <br> <a href="mailto:oi@fronthendy.com.br">oi@fronthendy.com.br</a></p>
