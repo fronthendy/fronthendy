@@ -123,11 +123,14 @@
                 <button name="contato" role="button" title="enviar formulário">Enviar</button>
                 <p>ou mande um email para <br> <a href="mailto:oi@fronthendy.com.br">oi@fronthendy.com.br</a></p>
             </form>
-            <div class="LI-profile-badge" data-version="v1" data-size="large" data-locale="pt_BR" data-type="horizontal" data-theme="light" data-vanity="hendyalmeida">
-                <a class="LI-simple-link" href='https://br.linkedin.com/in/hendyalmeida?trk=profile-badge'>
-                    <img src="img/linkedin-icon.webp" alt="Icone LinkedIn">/hendyalmeida
-                </a>
-            </div>
+            <script>
+    window.dna = {
+        r:'25854de14e5f5',
+        c:'hospedagem-wordpress',
+        t:'336x280'
+    };
+</script>
+<script type="text/javascript" src="//www.kinghost.com.br/dna.js"></script>
 
         </div>
     </section>
@@ -136,8 +139,7 @@
     </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-    <script src="js/main.js"></script>
+<script src="js/main.js"></script>
 
 </body>
 
